@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F7FBFF">
+<meta name="description" content="AdZone PK — posters, promotional videos and social media creatives for Pakistani businesses.">
+<title>AdZone PK | Creative Advertising Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--snow:#F7FBFF;--sky:#DCF0FF;--butter:#FFF0B3;--blush:#FFDDE4;--mint:#D6F5E9;--lilac:#E7E1FF;--teal:#0A8A7F;--teal2:#087268;--ink:#1C2A3F;--muted:#58677D;--line:#DDE7F0;--r:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--snow);color:var(--ink);font:400 16px/1.65 Figtree,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}img,svg{max-width:100%}h1,h2,h3,p{margin:0}
+h1,h2,h3,.brand b{font-family:"Bricolage Grotesque",sans-serif;letter-spacing:-.02em;line-height:1.08}
+.wrap{width:min(1140px,calc(100% - 36px));margin:auto}
+.ur{font-family:"Noto Nastaliq Urdu",serif;direction:rtl;line-height:2.1;font-size:.92em;color:var(--muted);margin-top:8px}
+:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;cursor:pointer;background:var(--teal);color:#fff;font:700 15px Figtree;padding:14px 24px;border-radius:999px;transition:background .2s,transform .2s;box-shadow:0 8px 20px #0a8a7f33}
+.btn:hover{background:var(--teal2);transform:translateY(-2px)}
+.btn.soft{background:#fff;color:var(--ink);box-shadow:0 0 0 1.5px var(--line)}.btn.soft:hover{background:var(--sky)}
+/* header */
+header{position:sticky;top:0;z-index:30;background:#f7fbffe8;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;font-size:20px}.brand b{font-weight:800}
+.mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--butter),var(--blush));display:grid;place-items:center;font:800 18px "Bricolage Grotesque";color:var(--ink);box-shadow:inset 0 0 0 2px #fff,0 4px 12px #1c2a3f1a}
+.links{display:flex;gap:6px;font-weight:600;font-size:14.5px}
+.links a{padding:8px 14px;border-radius:999px;color:var(--muted);transition:.2s}.links a:hover,.links a.on{background:var(--sky);color:var(--ink)}
+.menu{display:none;background:#fff;border:1.5px solid var(--line);border-radius:12px;width:44px;height:44px;font-size:20px;cursor:pointer}
+/* hero */
+.hero{padding:64px 0 72px;background:radial-gradient(900px 420px at 85% 0,var(--lilac),transparent 70%),radial-gradient(700px 400px at 0 20%,var(--butter),transparent 65%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.tag{display:inline-block;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:600;color:var(--muted);margin-bottom:20px}
+h1{font-size:clamp(40px,5.6vw,68px);font-weight:800}
+.hero p.lead{font-size:18px;color:var(--muted);max-width:30em;margin:20px 0 4px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.maker{background:#fff;border-radius:28px;padding:18px;box-shadow:0 30px 60px #1c2a3f1a,0 0 0 1.5px var(--line)}
+.maker-label{font-weight:700;font-size:14px;margin:2px 4px 10px}
+.poster{--a:var(--butter);--b:var(--teal);border-radius:20px;background:var(--a);aspect-ratio:4/4.4;padding:24px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;transition:background .35s}
+.poster:before{content:"";position:absolute;width:62%;aspect-ratio:1;right:-14%;bottom:-10%;border-radius:50%;background:var(--b);opacity:.92;transition:background .35s}
+.poster:after{content:"";position:absolute;width:20%;aspect-ratio:1;left:10%;bottom:22%;border-radius:30%;background:#fff8;transform:rotate(18deg)}
+.poster>*{position:relative;z-index:1}
+.p-brand{font:800 15px "Bricolage Grotesque";background:#fff;border-radius:999px;padding:5px 14px;align-self:flex-start;max-width:90%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.p-offer{font:800 clamp(30px,4.4vw,48px)/1 "Bricolage Grotesque";max-width:70%;word-break:break-word}
+.p-foot{font-weight:700;font-size:13px;color:#fff;align-self:flex-end;background:var(--ink);padding:6px 14px;border-radius:999px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.fields input{width:100%;border:1.5px solid var(--line);border-radius:12px;padding:11px 13px;font:inherit;font-size:14.5px;background:var(--snow)}
+.sw{display:flex;gap:8px;margin-top:12px;align-items:center;font-size:13px;color:var(--muted);font-weight:600}
+.sw button{width:30px;height:30px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1.5px var(--line);cursor:pointer}
+.sw button[aria-pressed=true]{box-shadow:0 0 0 2.5px var(--ink)}
+.maker .btn{width:100%;margin-top:14px}
+/* sections */
+section{padding:84px 0}
+.head{max-width:640px;margin-bottom:40px}.head h2{font-size:clamp(30px,4vw,44px);font-weight:800}.head p{color:var(--muted);margin-top:12px;font-size:17px}
+.band{background:#fff;border-block:1px solid var(--line)}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{border-radius:var(--r);padding:26px;background:var(--c,var(--sky))}
+.card h3{font-size:21px;margin:16px 0 8px}.card p{font-size:15px;color:#41506a}
+.ico{width:48px;height:48px;border-radius:15px;background:#fff;display:grid;place-items:center;font-size:22px;box-shadow:0 6px 14px #1c2a3f14}
+/* showcase */
+.show{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-template-rows:300px 300px;gap:16px}
+.work{border-radius:26px;position:relative;overflow:hidden;padding:22px;background:var(--c);display:flex;flex-direction:column;justify-content:flex-end}
+.work h3{font-size:20px;position:relative;z-index:2}.work p{font-size:14px;color:#41506a;position:relative;z-index:2}
+.w1{grid-row:span 2;--c:var(--butter)}.w2{--c:var(--blush)}.w3{--c:var(--sky)}.w4{grid-column:2/4;--c:var(--mint)}
+.art{position:absolute;inset:0}
+.sale{position:absolute;left:50%;top:40px;transform:translateX(-50%) rotate(-5deg);width:62%;aspect-ratio:3/4;background:#fff;border-radius:18px;box-shadow:0 20px 40px #1c2a3f26;padding:18px;display:flex;flex-direction:column;justify-content:space-between}
+.sale b{font:800 64px/1 "Bricolage Grotesque";color:var(--teal)}.sale i{font-style:normal;font-weight:700;font-size:13px;background:var(--ink);color:#fff;border-radius:99px;padding:5px 12px;align-self:flex-start}
+.sale u{text-decoration:none;font-weight:700;font-size:15px}
+.phone{position:absolute;right:22px;top:20px;width:92px;height:150px;border-radius:18px;background:#fff;border:3px solid var(--ink);padding:8px;display:grid;grid-template-columns:repeat(3,1fr);gap:4px;align-content:start}
+.phone span{aspect-ratio:1;border-radius:5px;background:var(--blush)}.phone span:nth-child(3n){background:var(--butter)}.phone span:nth-child(4n){background:var(--teal)}
+.play{position:absolute;left:24px;top:24px;width:46%;aspect-ratio:16/10;border-radius:16px;background:var(--ink);display:grid;place-items:center}
+.play:before{content:"";border-left:22px solid #fff;border-block:14px solid transparent;margin-left:6px}
+.play:after{content:"";position:absolute;left:12px;right:30%;bottom:10px;height:4px;border-radius:4px;background:var(--mint)}
+.cube{position:absolute;right:40px;top:32px;width:130px;height:130px;border-radius:34px;background:linear-gradient(145deg,#fff,var(--lilac));box-shadow:0 18px 30px #1c2a3f20;display:grid;place-items:center;font-size:52px;transform:rotate(8deg)}
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s}
+.step{padding:0 22px 0 0;border-top:3px solid var(--line);padding-top:22px;position:relative;counter-increment:s}
+.step:before{content:counter(s);position:absolute;top:-17px;left:0;width:31px;height:31px;border-radius:50%;background:var(--teal);color:#fff;font-weight:700;display:grid;place-items:center;font-size:15px}
+.step h3{font-size:19px;margin:8px 0 6px}.step p{font-size:15px;color:var(--muted)}
+/* pricing */
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+.price{background:#fff;border:1.5px solid var(--line);border-radius:26px;padding:30px;display:flex;flex-direction:column}
+.price.pop{background:var(--ink);color:#fff;border-color:var(--ink)}.price.pop p,.price.pop li{color:#d5deea}
+.price small{font-weight:700;color:var(--teal)}.price.pop small{color:var(--butter)}
+.price h3{font-size:26px;margin:6px 0 8px}.price p{color:var(--muted);font-size:15px}
+.price ul{list-style:none;padding:0;margin:20px 0 26px;display:grid;gap:10px;flex:1}
+.price li{padding-left:28px;position:relative;font-size:15px}.price li:before{content:"✓";position:absolute;left:0;top:0;color:var(--teal);font-weight:800}.price.pop li:before{color:var(--butter)}
+.price.pop .btn{background:var(--butter);color:var(--ink);box-shadow:none}
+.note{background:var(--butter);border-radius:16px;padding:14px 20px;font-weight:600;font-size:15px;margin-bottom:22px}
+/* creators */
+.earn{background:linear-gradient(120deg,var(--mint),var(--sky));border-radius:32px;padding:46px;display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
+.earn h2{font-size:clamp(28px,3.6vw,40px);font-weight:800}.earn p{max-width:34em;margin-top:10px;color:#41506a}
+/* faq */
+.faq{max-width:760px}
+details{background:#fff;border:1.5px solid var(--line);border-radius:18px;padding:0 22px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700;padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}summary:after{content:"+";font-size:22px;color:var(--teal);line-height:1}
+details[open] summary:after{content:"–"}details p{padding-bottom:18px;color:var(--muted)}
+/* contact */
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+.contact h2{font-size:clamp(30px,4vw,44px);font-weight:800;margin-bottom:12px}
+.line{display:flex;gap:14px;align-items:center;margin-top:18px}.line .ico{background:var(--sky);box-shadow:none;flex:none}
+.line small{display:block;color:var(--muted);font-size:13px;font-weight:600}.line a{font-weight:700;color:var(--teal)}
+.soc{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.soc a{padding:8px 16px;border-radius:999px;background:#fff;border:1.5px solid var(--line);font-weight:600;font-size:14px}
+.soc a.soon{opacity:.65}.soc a.soon:after{content:" · soon";font-size:12px}
+form{background:#fff;border-radius:28px;padding:30px;box-shadow:0 24px 50px #1c2a3f14,0 0 0 1.5px var(--line)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-weight:700;font-size:14px;margin:0 0 6px}.f{margin-bottom:14px}
+input,select,textarea{width:100%;border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;font:inherit;background:var(--snow);color:var(--ink)}
+textarea{min-height:110px;resize:vertical}input:focus,select:focus,textarea:focus{outline:3px solid #0a8a7f40;border-color:var(--teal)}
+.err{color:#B3261E;font-size:13px;font-weight:600;min-height:0}
+.res{display:none;background:var(--mint);border-radius:18px;padding:18px;margin-top:16px}.res.on{display:block}
+.res pre{white-space:pre-wrap;font:14px/1.6 Figtree;margin:8px 0 12px}.res div{display:flex;gap:10px;flex-wrap:wrap}
+.res .btn{padding:10px 18px;font-size:14px}
+footer{background:#fff;border-top:1px solid var(--line);padding:44px 0 28px;margin-top:20px}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}.fg p{color:var(--muted);max-width:26em;margin-top:12px;font-size:15px}
+.fg h4{margin:0 0 10px;font-family:"Bricolage Grotesque"}.fg a{display:block;color:var(--muted);padding:3px 0;font-size:15px}.fg a:hover{color:var(--teal)}
+.copy{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+/* floaters */
+.wa{position:fixed;right:18px;bottom:18px;z-index:40;background:var(--teal);color:#fff;font-weight:700;border-radius:999px;padding:13px 20px;box-shadow:0 12px 28px #0a8a7f55}
+.toast{position:fixed;left:50%;bottom:84px;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:12px 20px;border-radius:14px;font-weight:600;font-size:14.5px;opacity:0;pointer-events:none;transition:.3s;z-index:50;max-width:calc(100% - 36px)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.in{animation:rise .7s both}@keyframes rise{from{opacity:0;transform:translateY(18px)}}
+@media(max-width:960px){.hero-grid,.contact{grid-template-columns:1fr}.grid4,.steps{grid-template-columns:1fr 1fr;gap:28px 16px}.show{grid-template-columns:1fr 1fr;grid-template-rows:none;grid-auto-rows:260px}.w1{grid-row:auto;grid-column:1/3}.w4{grid-column:1/3}.prices{grid-template-columns:1fr}.fg{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.menu{display:block}.links{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;padding:12px 18px 18px;border-bottom:1px solid var(--line)}.links.open{display:flex}.nav>.btn{display:none}section{padding:60px 0}}
+@media(max-width:560px){.grid4,.steps,.row,.fields,.fg{grid-template-columns:1fr}.show{grid-template-columns:1fr}.w1,.w4{grid-column:auto}.earn{padding:30px 24px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="mark">A</span><b>AdZone PK</b></a>
+<nav class="links" id="links" aria-label="Main"><a href="#home">Home</a><a href="#services">Services</a><a href="#work">Our work</a><a href="#pricing">Packages</a><a href="#creators">Creators</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+<a class="btn" href="#contact">Start a project</a>
+<button class="menu" id="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+</div></header>
+
+<main>
+<section class="hero" id="home" style="padding-block:64px 72px"><div class="wrap hero-grid">
+<div class="in">
+<span class="tag">Posters · Video ads · Social creatives</span>
+<h1>Ads your customers stop scrolling for.</h1>
+<p class="lead">AdZone PK designs promotional posters, short video ads and social media creatives for shops, online sellers, restaurants and creators across Pakistan.</p>
+<div class="ur">آپ کے کاروبار کے لیے خوبصورت اور مؤثر اشتہارات۔</div>
+<div class="cta"><a class="btn" href="#contact">Get your ad designed</a><a class="btn soft" href="#work">See what we make</a></div>
+</div>
+<div class="maker in" style="animation-delay:.15s">
+<div class="maker-label">Try it: type your brand and see a poster</div>
+<div class="poster" id="poster"><span class="p-brand" id="pBrand">Your Brand</span><div class="p-offer" id="pOffer">Weekend Sale 30% off</div><span class="p-foot">Designed by AdZone PK</span></div>
+<div class="fields"><input id="inBrand" placeholder="Brand name" maxlength="22" aria-label="Brand name"><input id="inOffer" placeholder="Your offer" maxlength="30" aria-label="Your offer"></div>
+<div class="sw">Colours
+<button style="background:#FFF0B3" data-t="0" aria-pressed="true" aria-label="Butter"></button>
+<button style="background:#FFDDE4" data-t="1" aria-pressed="false" aria-label="Blush"></button>
+<button style="background:#DCF0FF" data-t="2" aria-pressed="false" aria-label="Sky"></button>
+<button style="background:#D6F5E9" data-t="3" aria-pressed="false" aria-label="Mint"></button></div>
+<a class="btn" href="#contact" id="orderPoster">Order this poster</a>
+</div></div></section>
+
+<section id="services" class="band"><div class="wrap">
+<div class="head"><h2>Everything your business needs to be seen.</h2><p>One studio for the posters, videos and posts that carry your message.</p><div class="ur">ہر کاروبار کے لیے تخلیقی حل۔</div></div>
+<div class="grid4">
+<article class="card" style="--c:var(--butter)"><div class="ico">🖼️</div><h3>Poster &amp; graphic design</h3><p>Sale posters, product ads and announcements that read clearly at a glance.</p><div class="ur">پوسٹرز اور پروڈکٹ اشتہارات۔</div></article>
+<article class="card" style="--c:var(--blush)"><div class="ico">🎬</div><h3>Promotional video ads</h3><p>Short vertical and widescreen videos that show your product or offer in action.</p><div class="ur">مختصر ویڈیو اشتہارات۔</div></article>
+<article class="card" style="--c:var(--sky)"><div class="ico">📱</div><h3>Social media creatives</h3><p>Posts, stories and covers sized for Facebook, Instagram, TikTok and YouTube.</p><div class="ur">سوشل میڈیا ڈیزائن۔</div></article>
+<article class="card" style="--c:var(--mint)"><div class="ico">📈</div><h3>Campaign support</h3><p>Plan your goals and budget with us and pick the right ad formats.</p><div class="ur">مہم کی رہنمائی۔</div></article>
+</div></div></section>
+
+<section id="work"><div class="wrap">
+<div class="head"><h2>The kind of work we make.</h2><p>Sample concepts showing the styles you can order. Your own designs use your brand, colours and message.</p></div>
+<div class="show">
+<div class="work w1"><div class="art"><div class="sale"><i>MEGA SALE</i><b>50%</b><u>Everything must go</u></div></div><h3>Sale posters that sell</h3><p>Big offers, clear prices, easy to read on a phone.</p></div>
+<div class="work w2"><div class="art"><div class="phone"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div><h3>A feed that feels consistent</h3><p>Social post sets</p></div>
+<div class="work w3"><div class="art"><div class="cube">🛍️</div></div><h3>Product spotlights</h3><p>Brand visuals</p></div>
+<div class="work w4"><div class="art"><div class="play"></div></div><h3>Video ads that tell your story</h3><p>15 to 60 second promotional videos for Reels, TikTok, Shorts and Facebook.</p></div>
+</div></div></section>
+
+<section class="band"><div class="wrap">
+<div class="head"><h2>From idea to finished design in four steps.</h2></div>
+<div class="steps">
+<div class="step"><h3>Tell us what you need</h3><p>Share your product, offer and the platform you will post on.</p><div class="ur">اپنی ضرورت بتائیں۔</div></div>
+<div class="step"><h3>Pick a package</h3><p>Choose a poster, social set, video or campaign support.</p><div class="ur">پیکج منتخب کریں۔</div></div>
+<div class="step"><h3>Confirm the details</h3><p>We agree price, delivery time and revisions before we start.</p><div class="ur">قیمت اور وقت طے کریں۔</div></div>
+<div class="step"><h3>Receive your files</h3><p>Review your design and get the final files ready to post.</p><div class="ur">تیار ڈیزائن حاصل کریں۔</div></div>
+</div></div></section>
+
+<section id="pricing"><div class="wrap">
+<div class="head"><h2>Pick a starting point.</h2><p>Every project is different, so we confirm the exact price with you before work begins.</p><div class="ur">قیمت کام کی تفصیل کے مطابق پہلے طے ہوگی۔</div></div>
+<div class="note">No hidden charges. Scope, price, delivery time and revisions are agreed up front.</div>
+<div class="prices">
+<article class="price"><small>Starter</small><h3>Single creative</h3><p>One strong design to get noticed.</p><ul><li>One poster or graphic</li><li>Size set for your platform</li><li>One agreed revision round</li><li>Final digital file</li></ul><a class="btn" href="#contact" data-service="Poster & Graphic Design">Enquire now</a></article>
+<article class="price pop"><small>Most popular</small><h3>Social starter</h3><p>A consistent look across your social media.</p><ul><li>Multiple social creatives</li><li>One visual direction</li><li>Formats for each platform</li><li>Revision terms confirmed first</li></ul><a class="btn" href="#contact" data-service="Social Media Creatives">Enquire now</a></article>
+<article class="price"><small>Custom</small><h3>Video &amp; campaign</h3><p>A promo video or a wider campaign.</p><ul><li>Video or campaign brief</li><li>Creative direction call</li><li>Scope and timeline agreed first</li><li>Ad spend is separate</li></ul><a class="btn" href="#contact" data-service="Promotional Video Ads">Enquire now</a></article>
+</div></div></section>
+
+<section id="creators" style="padding-top:0"><div class="wrap"><div class="earn">
+<div><h2>Create for AdZone PK and get rewarded.</h2><p>Make promotional videos or poster ads for AdZone PK and earn. Open the creator page for current tasks and reward terms.</p><div class="ur">ویڈیو یا پوسٹر بنائیں اور انعام حاصل کریں۔</div></div>
+<a class="btn" href="https://sites.google.com/view/adzonepk/creators?authuser=0" target="_blank" rel="noopener">Open creator page</a>
+</div></div></section>
+
+<section id="faq" class="band"><div class="wrap">
+<div class="head"><h2>Questions we hear often.</h2></div>
+<div class="faq">
+<details><summary>How do I order?</summary><p>Fill in the form below. Your enquiry is prepared as a message you can send to our WhatsApp group, and we reply with price and delivery time.</p></details>
+<details><summary>When do I pay?</summary><p>Price, delivery time and revisions are agreed with you before work starts. Nothing is charged before you confirm.</p></details>
+<details><summary>Can I ask for changes?</summary><p>Yes. The number of revision rounds is agreed in advance and listed in your package.</p></details>
+<details><summary>Which platforms do you design for?</summary><p>Facebook, Instagram, TikTok, YouTube and WhatsApp status, plus print-ready posters.</p></details>
+</div></div></section>
+
+<section id="contact"><div class="wrap contact">
+<div>
+<h2>Let’s promote your business.</h2>
+<p style="color:var(--muted)">Tell us what you want to promote and we will get back to you with the next step.</p><div class="ur">اپنے منصوبے کی تفصیل بھیجیں۔</div>
+<div class="line"><div class="ico">💬</div><div><small>WhatsApp community</small><a href="https://chat.whatsapp.com/HHf0EW6RP9s2PZpcJBRMVY?s=sh&p=a&iam=2" target="_blank" rel="noopener">Join our WhatsApp group</a></div></div>
+<div class="line" id="mailLine" hidden><div class="ico">✉️</div><div><small>Business email</small><a id="mail" href="#"></a></div></div>
+<div class="soc"><a href="https://chat.whatsapp.com/HHf0EW6RP9s2PZpcJBRMVY?s=sh&p=a&iam=2" target="_blank" rel="noopener">WhatsApp</a><a class="soon" href="#" data-soon>Facebook</a><a class="soon" href="#" data-soon>YouTube</a><a class="soon" href="#" data-soon>Instagram</a><a class="soon" href="#" data-soon>TikTok</a></div>
+</div>
+<form id="form" novalidate>
+<div class="row"><div class="f"><label for="name">Your name *</label><input id="name" name="name" autocomplete="name"></div><div class="f"><label for="business">Business or brand</label><input id="business" name="business"></div></div>
+<div class="row"><div class="f"><label for="service">Service *</label><select id="service" name="service"><option value="">Select a service</option><option>Poster &amp; Graphic Design</option><option>Promotional Video Ads</option><option>Social Media Creatives</option><option>Advertising Campaign Support</option><option>Other / Not sure yet</option></select></div>
+<div class="f"><label for="budget">Estimated budget</label><select id="budget" name="budget"><option>Not decided</option><option>Under PKR 2,000</option><option>PKR 2,000 – 5,000</option><option>PKR 5,000 – 10,000</option><option>PKR 10,000+</option></select></div></div>
+<div class="f"><label for="details">Project details *</label><textarea id="details" name="details" placeholder="What do you want to promote, and where will you post it?"></textarea></div>
+<div class="err" id="err" role="alert"></div>
+<button class="btn" type="submit" style="width:100%">Prepare my enquiry</button>
+<div class="res" id="res"><b>Your message is ready</b><pre id="msg"></pre><div><button type="button" class="btn" id="copy">Copy message</button><a class="btn soft" target="_blank" rel="noopener" href="https://chat.whatsapp.com/HHf0EW6RP9s2PZpcJBRMVY?s=sh&p=a&iam=2">Open WhatsApp group</a></div></div>
+</form>
+</div></section>
+</main>
+
+<footer><div class="wrap"><div class="fg">
+<div><a class="brand" href="#home"><span class="mark">A</span><b>AdZone PK</b></a><p>Your creative partner for business advertising in Pakistan.</p></div>
+<div><h4>Explore</h4><a href="#services">Services</a><a href="#work">Our work</a><a href="#pricing">Packages</a><a href="#faq">FAQ</a></div>
+<div><h4>Connect</h4><a href="#contact">Order &amp; contact</a><a href="https://chat.whatsapp.com/HHf0EW6RP9s2PZpcJBRMVY?s=sh&p=a&iam=2" target="_blank" rel="noopener">WhatsApp group</a><a href="https://sites.google.com/view/adzonepk/creators?authuser=0" target="_blank" rel="noopener">Creator page</a></div>
+</div><div class="copy"><span>© 2026 AdZone PK. All rights reserved.</span><span>Creative thinking. Powerful advertising.</span></div></div></footer>
+
+<a class="wa" href="https://chat.whatsapp.com/HHf0EW6RP9s2PZpcJBRMVY?s=sh&p=a&iam=2" target="_blank" rel="noopener">WhatsApp</a>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const EMAIL="";            // add your Gmail here, e.g. "name@gmail.com"
+const WA="https://chat.whatsapp.com/HHf0EW6RP9s2PZpcJBRMVY?s=sh&p=a&iam=2";
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s);
+const toast=t=>{const e=$("#toast");e.textContent=t;e.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove("on"),3200)};
+const menu=$("#menu"),links=$("#links");
+menu.onclick=()=>{const o=links.classList.toggle("open");menu.textContent=o?"×":"☰";menu.setAttribute("aria-expanded",o)};
+$$("#links a").forEach(a=>a.onclick=()=>{links.classList.remove("open");menu.textContent="☰"});
+if(EMAIL){$("#mailLine").hidden=false;const m=$("#mail");m.textContent=EMAIL;m.href="mailto:"+EMAIL}
+/* poster maker */
+const themes=[["#FFF0B3","#0A8A7F"],["#FFDDE4","#FF8FA3"],["#DCF0FF","#7C9CFF"],["#D6F5E9","#F5B83D"]];
+const P=$("#poster");
+$("#inBrand").oninput=e=>$("#pBrand").textContent=e.target.value||"Your Brand";
+$("#inOffer").oninput=e=>$("#pOffer").textContent=e.target.value||"Weekend Sale 30% off";
+$$(".sw button").forEach(b=>b.onclick=()=>{const t=themes[b.dataset.t];P.style.setProperty("--a",t[0]);P.style.setProperty("--b",t[1]);$$(".sw button").forEach(x=>x.setAttribute("aria-pressed",x===b))});
+$("#orderPoster").onclick=()=>{const b=$("#inBrand").value,o=$("#inOffer").value;$("#service").value="Poster & Graphic Design";if(b)$("#business").value=b;if(o)$("#details").value="Poster offer: "+o}
+$$("[data-service]").forEach(a=>a.onclick=()=>$("#service").value=a.dataset.service);
+$$("[data-soon]").forEach(a=>a.onclick=e=>{e.preventDefault();toast("This link will be added soon.")});
+/* form */
+let text="";
+$("#form").onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),err=$("#err");
+ if(!f.get("name").trim()||!f.get("service")||!f.get("details").trim()){err.textContent="Please fill in your name, a service and your project details.";return}
+ err.textContent="";
+ text=["Assalam-o-Alaikum AdZone PK!","I would like to enquire about a project.","","Name: "+f.get("name"),"Business: "+(f.get("business")||"Not provided"),"Service: "+f.get("service"),"Budget: "+f.get("budget"),"Details: "+f.get("details")].join("\n");
+ $("#msg").textContent=text;$("#res").classList.add("on");$("#res").scrollIntoView({behavior:"smooth",block:"nearest"});toast("Message ready. Copy it and send it to our group.")};
+$("#copy").onclick=async()=>{try{await navigator.clipboard.writeText(text);toast("Copied. Paste it in the WhatsApp group.")}catch(_){const r=document.createRange();r.selectNodeContents($("#msg"));getSelection().removeAllRanges();getSelection().addRange(r);toast("Select and copy the message.")}};
+/* active nav */
+const secs=[...$$("main section[id]")],ls=[...$$("#links a")];
+addEventListener("scroll",()=>{let c="home";secs.forEach(s=>{if(s.getBoundingClientRect().top<140)c=s.id});ls.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+c))},{passive:true});
+</script>
+</body>
+</html>
